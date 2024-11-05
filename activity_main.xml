@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -7,123 +7,75 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
     <LinearLayout
-        android:orientation="horizontal"
+        android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
-        <Chronometer
-            android:id="@+id/chronometer"
-            android:format="예약에 걸린시간:%s"
-            android:textSize="20dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
-       <Button
-           android:id="@+id/btnStart"
-           android:text="start"
-           android:textSize="15dp"
-           android:layout_width="wrap_content"
-           android:layout_height="wrap_content"/>
-
-    </LinearLayout>
-<RadioGroup
-    android:orientation="horizontal"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content">
-
-   <RadioButton
-       android:id="@+id/rdocal"
-       android:text="calendar"
-       android:textSize="30dp"
-       android:layout_width="wrap_content"
-       android:layout_height="wrap_content"/>
-   <RadioButton
-       android:id="@+id/rdoTime"
-       android:text="timePicker"
-       android:textSize="30dp"
-       android:layout_width="wrap_content"
-       android:layout_height="wrap_content"/>
-
-</RadioGroup>
-    <FrameLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-        <CalendarView
-            android:visibility="visible"
-            android:id="@+id/calender"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
-        <TimePicker
-            android:visibility="invisible"
-            android:id="@+id/timepicker"
-            android:timePickerMode="spinner"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
-    </FrameLayout>
-     <LinearLayout
-         android:orientation="horizontal"
-         android:layout_width="match_parent"
-         android:layout_height="wrap_content">
-    <Button
-        android:id="@+id/btnEnd"
-        android:text="End"
-        android:textSize="25dp"
+    <TextView
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
-       <TextView
-           android:id="@+id/tvYear"
-           android:text="00"
-           android:textSize="25dp"
-           android:layout_width="wrap_content"
-           android:layout_height="wrap_content"/>
-         <TextView
-             android:text="년"
-             android:textSize="25dp"
-             android:layout_width="wrap_content"
-             android:layout_height="wrap_content"/>
-         <TextView
-             android:id="@+id/tvMonth"
-             android:text="00"
-             android:textSize="25dp"
-             android:layout_width="wrap_content"
-             android:layout_height="wrap_content"/>
-         <TextView
-             android:text="월"
-             android:textSize="25dp"
-             android:layout_width="wrap_content"
-             android:layout_height="wrap_content"/>
-         <TextView
-             android:id="@+id/tvDay"
-             android:text="00"
-             android:textSize="25dp"
-             android:layout_width="wrap_content"
-             android:layout_height="wrap_content"/>
-         <TextView
-             android:text="일"
-             android:textSize="25dp"
-             android:layout_width="wrap_content"
-             android:layout_height="wrap_content"/>
-         <TextView
-             android:id="@+id/tvHour"
-             android:text="00"
-             android:textSize="25dp"
-             android:layout_width="wrap_content"
-             android:layout_height="wrap_content"/>
-         <TextView
-             android:text="시"
-             android:textSize="25dp"
-             android:layout_width="wrap_content"
-             android:layout_height="wrap_content"/>
-         <TextView
-             android:id="@+id/tvMinute"
-             android:text="00"
-             android:textSize="25dp"
-             android:layout_width="wrap_content"
-             android:layout_height="wrap_content"/>
-         <TextView
-             android:text="분"
-             android:textSize="25dp"
-             android:layout_width="wrap_content"
-             android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:background="#f00"
+        android:text="Hello World!"
+        android:textSize="50dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00FF73"
+        android:text="Hello World!"
+        android:textSize="50dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#3700FF"
+        android:text="Hello World!"
+        android:textSize="50dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FFE600"
+        android:text="Hello World!"
+        android:textSize="50dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#D900FF"
+        android:text="Hello World!"
+        android:textSize="50dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#f00"
+        android:text="Hello World!"
+        android:textSize="50dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#0088FF"
+        android:text="Hello World!"
+        android:textSize="50dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FF7700"
+        android:text="Hello World!"
+        android:textSize="50dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00FF73"
+        android:text="Hello World!"
+        android:textSize="50dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00FF55"
+        android:text="Hello World!"
+        android:textSize="50dp" />
 
-
-</LinearLayout>
-</LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#87DCA3"
+            android:text="Hello World!"
+            android:textSize="50dp" />
+    </LinearLayout>
+</ScrollView>
